@@ -375,25 +375,6 @@ Compared with aggressive heuristic GEO or naive single-model rewriting, MAGEO is
 
 ---
 
-## Reproducibility and Testing
-
-The repository currently keeps a focused test surface around the core pipeline.
-
-Run:
-
-```bash
-pytest -q
-```
-
-Focused files include:
-
-- [test/test_candidate_selector_unit.py](test/test_candidate_selector_unit.py)
-- [test/test_config_base_unit.py](test/test_config_base_unit.py)
-- [test/test_memory_bank.py](test/test_memory_bank.py)
-- [test/test_qa.py](test/test_qa.py)
-- [test/test_query_rewrite.py](test/test_query_rewrite.py)
-
----
 
 ## Citation
 
@@ -401,8 +382,8 @@ If you find this repository useful in your research, please cite the correspondi
 
 ```bibtex
 @misc{mageo2026,
-  title        = {MAGEO: Memory-Augmented Multi-Agent Generative Engine Optimization},
-  author       = {Add Your Author List Here},
+  title        = {From Experience to Skill: Multi-Agent Generative Engine Optimization via Reusable Strategy Learning},
+  author       = {Beining Wu, Fuyou Mao, Jiong Lin, Cheng Yang, et al},
   year         = {2026},
   note         = {ACL 2026}
 }
