@@ -1,19 +1,8 @@
 <p align="center">
   <h1 align="center">MAGEO</h1>
-  <h3 align="center">Memory-Augmented Multi-Agent Generative Engine Optimization</h3>
+  <h3 align="center">From Experience to Skill: Multi-Agent Generative Engine Optimization via Reusable Strategy Learning</h3>
 </p>
 
-<p align="center">
-  <em>
-    A paper-aligned framework for optimizing document visibility and influence in generative engines
-  </em>
-</p>
-
-<p align="center">
-  <em>
-    基于记忆增强与多智能体协作的生成式引擎优化框架
-  </em>
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/ACL-2026-blue" alt="ACL 2026"/>
