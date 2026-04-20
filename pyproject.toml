@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geo"
+version = "0.1.0"
+description = "geo"
+readme = "README.md"
+authors = [{ name = "XXXX" }]
+requires-python = ">=3.12"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+keywords = ["agent", "llm", "react", "ai", "litellm"]
+dependencies = ["litellm>=1.80.0", "pydantic>=2.12.5", "zai-sdk>=0.2.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-asyncio>=0.23"]
+
+
+[tool.setuptools.packages.find]
+include = [
+    "agent*",
+    "config*",
+    "debug*",
+    "memory*",
+    "model*",
+    "pipeline*",
+    "prompt*",
+    "tool*",
+]
+exclude = ["test*", "harbor*", "jobs*", "workspace*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.yaml"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["test"]

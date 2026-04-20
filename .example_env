@@ -1,0 +1,6 @@
+# Terminal Bench 环境变量配置示例
+# 复制此文件为 .env 并修改配置
+
+# 自定义配置文件路径（可选）
+# 如果不设置，将使用包内默认配置 config/config.yaml
+EA_DEFAULT_CONFIG=/path/to/your/config.yaml
