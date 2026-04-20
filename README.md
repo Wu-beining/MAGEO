@@ -1,6 +1,6 @@
 <p align="center">
-  <h1 align="center">MAGEO</h1>
-  <h3 align="center">From Experience to Skill: Multi-Agent Generative Engine Optimization via Reusable Strategy Learning</h3>
+  <h1 align="center">From Experience to Skill: Multi-Agent Generative Engine Optimization via Reusable Strategy Learning</h1>
+  <h3 align="center">MAGEO</h3>
 </p>
 
 <p align="center">
@@ -9,11 +9,6 @@
   </em>
 </p>
 
-<p align="center">
-  <em>
-    基于记忆增强与多智能体协作的生成式引擎优化框架
-  </em>
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/ACL-2026-blue" alt="ACL 2026"/>
@@ -413,10 +408,7 @@ If you find this repository useful in your research, please cite the correspondi
 }
 ```
 
-If you already have the final author list and paper venue metadata, I recommend replacing this placeholder with the official BibTeX entry.
 
 ---
 
-## License
 
-This project is currently documented as MIT-licensed in the repository materials. If you are preparing a public release, it is recommended to include the explicit `LICENSE` file in the repository root for clarity.
