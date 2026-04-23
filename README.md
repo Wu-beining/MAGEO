@@ -11,7 +11,9 @@
 
 
 <p align="center">
+<a href="https://arxiv.org/abs/2604.19516">
   <img src="https://img.shields.io/badge/ACL-2026-blue" alt="ACL 2026"/>
+</a>
   <img src="https://img.shields.io/badge/Python-3.12%2B-green" alt="Python 3.12+"/>
   <img src="https://img.shields.io/badge/Framework-LiteLLM-orange" alt="LiteLLM"/>
   <img src="https://img.shields.io/badge/Status-Research%20Code-success" alt="Research code"/>
@@ -381,11 +383,14 @@ Compared with aggressive heuristic GEO or naive single-model rewriting, MAGEO is
 If you find this repository useful in your research, please cite the corresponding paper once the bibliographic entry is finalized.
 
 ```bibtex
-@misc{mageo2026,
-  title        = {From Experience to Skill: Multi-Agent Generative Engine Optimization via Reusable Strategy Learning},
-  author       = {Beining Wu, Fuyou Mao, Jiong Lin, Cheng Yang, et al},
-  year         = {2026},
-  note         = {ACL 2026}
+@misc{wu2026experienceskillmultiagentgenerative,
+      title={From Experience to Skill: Multi-Agent Generative Engine Optimization via Reusable Strategy Learning}, 
+      author={Beining Wu and Fuyou Mao and Jiong Lin and Cheng Yang and Jiaxuan Lu and Yifu Guo and Siyu Zhang and Yifan Wu and Ying Huang and Fu Li},
+      year={2026},
+      eprint={2604.19516},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2604.19516}, 
 }
 ```
 
