@@ -383,17 +383,13 @@ Compared with aggressive heuristic GEO or naive single-model rewriting, MAGEO is
 If you find this repository useful in your research, please cite the corresponding paper once the bibliographic entry is finalized.
 
 ```bibtex
-@misc{wu2026experienceskillmultiagentgenerative,
-      title={From Experience to Skill: Multi-Agent Generative Engine Optimization via Reusable Strategy Learning}, 
-      author={Beining Wu and Fuyou Mao and Jiong Lin and Cheng Yang and Jiaxuan Lu and Yifu Guo and Siyu Zhang and Yifan Wu and Ying Huang and Fu Li},
-      year={2026},
-      eprint={2604.19516},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2604.19516}, 
+@article{wu2026experience,
+  title={From Experience to Skill: Multi-Agent Generative Engine Optimization via Reusable Strategy Learning},
+  author={Wu, Beining and Mao, Fuyou and Lin, Jiong and Yang, Cheng and Lu, Jiaxuan and Guo, Yifu and Zhang, Siyu and Wu, Yifan and Huang, Ying and Li, Fu},
+  journal={arXiv preprint arXiv:2604.19516},
+  year={2026}
 }
 ```
-
 
 ---
 
